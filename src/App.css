@@ -6,8 +6,6 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -34,9 +32,10 @@
 }
 
 .card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  margin-top: 2rem;
+  text-align: left;
 }
